@@ -61,16 +61,6 @@
 
 ---
 
-### 🚀 Featured work
-
-| Project | What it does | Stack |
-|---|---|---|
-| [**youtube-kaynak-kodlari**](https://github.com/emreyoleridev/youtube-kaynak-kodlari) | Source code for every lesson, one folder per episode | Python · NumPy · Pandas |
-| *Coming soon* | Robot perception demo: detect → estimate pose → grasp | ROS 2 · OpenCV · PyTorch |
-| *Coming soon* | Reinforcement learning agent in simulation | Gymnasium · PyTorch |
-
----
-
 ### 🤝 Open to
 Collaboration on robotics and ML projects, open-source contributions, and conversations about learning robotics the hard way (with code).
 
