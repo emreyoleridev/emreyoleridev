@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00E5FF&center=true&vCenter=true&width=720&lines=Perceive+%E2%86%92+Plan+%E2%86%92+Act;Teaching+robots+to+see+the+world;ROS+2+%C2%B7+PyTorch+%C2%B7+OpenCV+%C2%B7+RL)](https://git.io/typing-svg)
+[![Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00E5FF&center=true&vCenter=true&width=720&lines=Robotics+%26+Computer+Vision+Engineer;Machine+Learning+%26+Deep+Learning;ROS+2+%C2%B7+PyTorch+%C2%B7+OpenCV)](https://git.io/typing-svg)
 
 </div>
 
@@ -81,10 +81,12 @@
 
 ### 📡 Find me
 <p>
-  <a href="https://github.com/emreyoleridev/youtube-kaynak-kodlari"><img src="https://img.shields.io/badge/GitHub%20Lessons%20Code-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://www.youtube.com/@emreyoleridev"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/></a>
+  <a href="https://www.instagram.com/emreyoleridev"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/emreyoleridev"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://www.facebook.com/emreyoleridev"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/></a>
   <a href="https://medium.com/@emreyoleri"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"/></a>
   <a href="https://x.com/emreyoleridev"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/></a>
-  <a href="https://www.facebook.com/emreyoleridev"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/></a>
 </p>
 
 </td>
