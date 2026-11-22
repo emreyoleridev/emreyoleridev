@@ -28,7 +28,7 @@
   <!-- title -->
   <text x="60" y="120" font-family="Helvetica, Arial, sans-serif" font-size="58" font-weight="800" fill="#FFFFFF">Emre Yoleri</text>
   <text x="62" y="162" font-family="Menlo, Consolas, monospace" font-size="22" fill="url(#accent)">Robotics &amp; Computer Vision Engineer</text>
-  <text x="62" y="200" font-family="Menlo, Consolas, monospace" font-size="18" fill="#8BA3C7">perceive → plan → act  ·  ROS 2 · PyTorch · OpenCV</text>
+  <text x="62" y="200" font-family="Menlo, Consolas, monospace" font-size="18" fill="#8BA3C7">Machine Learning · Deep Learning · ROS 2 · OpenCV</text>
 
   <!-- robot arm + detection box (right side) -->
   <g transform="translate(830,150)" fill="none" stroke-linecap="round" stroke-linejoin="round">
