@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Emre Yoleri — Robotics and Computer Vision">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070B14"/>
+      <stop offset="1" stop-color="#0E1A2E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00E5FF"/>
+      <stop offset="1" stop-color="#7C4DFF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#00E5FF" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#00E5FF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1B2A44" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="pulse">
+      <stop offset="0" stop-color="#00E5FF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#00E5FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)" opacity="0.5"/>
+
+  <!-- title -->
+  <text x="60" y="120" font-family="Helvetica, Arial, sans-serif" font-size="58" font-weight="800" fill="#FFFFFF">Emre Yoleri</text>
+  <text x="62" y="162" font-family="Menlo, Consolas, monospace" font-size="22" fill="url(#accent)">Robotics &amp; Computer Vision Engineer</text>
+  <text x="62" y="200" font-family="Menlo, Consolas, monospace" font-size="18" fill="#8BA3C7">perceive → plan → act  ·  ROS 2 · PyTorch · OpenCV</text>
+
+  <!-- robot arm + detection box (right side) -->
+  <g transform="translate(830,150)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle r="150" fill="url(#glow)" opacity="0.25"/>
+    <!-- base -->
+    <rect x="-60" y="95" width="120" height="18" rx="6" fill="#1F2D47"/>
+    <!-- links -->
+    <path d="M0 95 L-10 10" stroke="#00E5FF" stroke-width="14"/>
+    <path d="M-10 10 L 80 -40" stroke="#7C4DFF" stroke-width="12"/>
+    <path d="M80 -40 L 130 20" stroke="#00E5FF" stroke-width="10"/>
+    <!-- joints -->
+    <circle cx="0" cy="95" r="10" fill="#070B14" stroke="#00E5FF" stroke-width="3"/>
+    <circle cx="-10" cy="10" r="10" fill="#070B14" stroke="#7C4DFF" stroke-width="3"/>
+    <circle cx="80" cy="-40" r="9" fill="#070B14" stroke="#00E5FF" stroke-width="3"/>
+    <!-- gripper -->
+    <path d="M122 20 L 138 20 M 130 12 L 130 32" stroke="#FFFFFF" stroke-width="3"/>
+    <!-- detection box around target -->
+    <rect x="150" y="-90" width="110" height="80" fill="none" stroke="#00E5FF" stroke-width="2" stroke-dasharray="6 5">
+      <animate attributeName="stroke-dashoffset" from="0" to="-22" dur="1.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="150" y="-108" width="92" height="18" rx="3" fill="#00E5FF"/>
+    <text x="156" y="-95" font-family="Menlo, Consolas, monospace" font-size="12" fill="#070B14">object 0.97</text>
+    <!-- scanning pulse -->
+    <circle cx="205" cy="-50" r="6" fill="#00E5FF">
+      <animate attributeName="r" values="6;16;6" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- neural-net dots (bottom-right) -->
+  <g opacity="0.55">
+    <g stroke="#1F3A5F" stroke-width="1.2">
+      <line x1="960" y1="230" x2="1010" y2="200"/><line x1="960" y1="230" x2="1010" y2="250"/>
+      <line x1="1010" y1="200" x2="1060" y2="180"/><line x1="1010" y1="200" x2="1060" y2="220"/>
+      <line x1="1010" y1="250" x2="1060" y2="220"/><line x1="1060" y1="180" x2="1110" y2="205"/>
+      <line x1="1060" y1="220" x2="1110" y2="205"/>
+    </g>
+    <circle cx="960" cy="230" r="5" fill="#00E5FF"/>
+    <circle cx="1010" cy="200" r="5" fill="#7C4DFF"/>
+    <circle cx="1010" cy="250" r="5" fill="#7C4DFF"/>
+    <circle cx="1060" cy="180" r="5" fill="#00E5FF"/>
+    <circle cx="1060" cy="220" r="5" fill="#00E5FF"/>
+    <circle cx="1110" cy="205" r="5" fill="#FFFFFF"/>
+  </g>
+</svg>
